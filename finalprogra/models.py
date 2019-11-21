@@ -61,4 +61,3 @@ class PlatoAdmin(admin.ModelAdmin):
 class MenuAdmin (admin.ModelAdmin):
 
     inlines = (ComidaInLine,)
- import admin
